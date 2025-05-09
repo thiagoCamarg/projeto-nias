@@ -78,7 +78,7 @@
 }
 
 .hero-img1 {
-    background-image: url(../img/nias-logo2.png);
+    background-image: url('/img/nias-logo2.png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -87,7 +87,7 @@
 }
 
 .hero-img2 {
-    background-image: url(../img/xnias.png);
+    background-image: url('/img/xnias.png');
     background-size: contain;
     background-repeat: no-repeat;
     height: 100%;
