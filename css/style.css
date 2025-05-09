@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: #FEDF6B;
+}
+
+.menu-container {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 15px;
+}
+
+.logo-container {
+    width: 50%;
+}
+
+.logo-container p {
+    letter-spacing: -1px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.links-container {
+    width: 50%;
+}
+
+.links-container ul {
+    display: flex;
+    justify-content: right;
+    gap: 25px;
+    list-style: none;
+    height: 60px;
+    align-items: center;
+}
+
+.links-container ul a {
+    display: flex;
+    justify-content: left;
+    text-decoration: none;
+    font-size: 20px;
+    color: #e36339;
+}
+
+.links-container ul a.black-red{
+    color: #000;
+}
+
+.links-container ul a.black-red:hover {
+    color: red;
+    font-size: 30px;
+}
+
+.links-container ul a.orange-black:hover {
+    color: #f0d66b;
+    font-size: 30px;
+}
+
+.hero-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+.hero-img1 {
+    background-image: url('/img/nias-logo2.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 50%;
+}
+
+.hero-img2 {
+    background-image: url('/img/xnias.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 50%;
+}
+
+.about-container {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.sobre {
+    margin: 0 auto;
+    font-size: 40px;
+}
+
+.sobre span {
+    color:#e36339
+}
+
+.about-container .wrapper {
+    background-color: #ffffffe9;
+    padding: 20px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    display: flex;
+    width: 100%
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+}
+
+.img-container img{
+    width: 50%;
+}
+
+.about{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: #ffffff5d;
+    box-shadow: rgb(230, 128, 60) 10px 12px 0px 0px;
+
+}
+
+.about span {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about .orange {
+    color: #e36339;
+}
+
+.about p {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* background-color: #F9DE66; */
